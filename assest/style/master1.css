@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+
+body {
+  direction: rtl;
+}
+
+main {
+  width: 100%;
+}
+main > .menu {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  display: flex;
+}
+main > .menu > div:nth-of-type(1) {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+main > .menu > div:nth-of-type(1) > img {
+  width: 80%;
+  height: 100%;
+}
+main > .menu > div:nth-of-type(2) {
+  width: 90%;
+  height: 100%;
+}
+main > .menu > div:nth-of-type(2) > ul {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+  justify-content: flex-start;
+  align-items: center;
+}
+main > .menu > div:nth-of-type(2) > ul > li > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 0 10px;
+  font-family: "Lato", sans-serif;
+}
+main > section {
+  width: 100%;
+  display: flex;
+  margin-top: 100px;
+}
+main > section > div {
+  width: 50%;
+}
+main > section > div:nth-of-type(2) > img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+main > section > div:nth-of-type(1) {
+  background-color: rgb(3, 158, 3);
+}
+main > section > div:nth-of-type(1) h2,
+main > section > div:nth-of-type(1) h4 {
+  color: white;
+  font-family: "Indie Flower", cursive;
+}
+main > section > div:nth-of-type(1) > h2 {
+  font-size: 35px;
+  text-align: center;
+  padding: 20px 80px;
+  justify-content: center;
+  font-weight: bold;
+}
+main > section > div:nth-of-type(1) > h4 {
+  text-align: justify;
+  font-family: "Indie Flower", cursive;
+  padding: 20px 80px;
+  -moz-text-align-last: right;
+       text-align-last: right;
+  font-size: 20px;
+  font-weight: lighter;
+}
+main > section > div:nth-of-type(1) > aside {
+  width: 100%;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+main > section > div:nth-of-type(1) > aside > h5 {
+  color: white;
+  font-family: "Indie Flower", cursive;
+  font-size: 30px;
+  margin: 0 40px;
+  border-radius: 15px;
+  border: 1px solid white;
+  background-color: white;
+  color: rgb(27, 172, 27);
+  width: 30%;
+  height: 50px;
+  text-align: center;
+}
+main > section > div:nth-of-type(1) > aside > input {
+  background-color: rgb(27, 172, 27);
+  font-size: 40px;
+  margin-right: 80px;
+  width: 40%;
+  text-align: center;
+}
+main > section > div:nth-of-type(1) > ul {
+  border: 2px solid white;
+  width: 40%;
+  height: 50px;
+  margin: 20px 80px;
+  text-align: center;
+  padding: 8px 20px;
+  font-size: 20px;
+  list-style-type: none;
+}
+main > section > div:nth-of-type(1) > ul > li > a {
+  text-decoration: none;
+  color: white;
+  font-family: "Indie Flower", cursive;
+}
+main > section > div:nth-of-type(1) > ul:hover {
+  background-color: rgba(27, 172, 27, 0.288);
+}
+
+.box {
+  width: 100%;
+  height: 200px;
+  margin: 100px 0;
+  display: flex;
+}
+.box > div {
+  width: 20%;
+  height: 100px;
+  margin: 40px;
+}
+.box > div > img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Indie Flower", cursive;
+  background-color: rgba(128, 128, 128, 0.199);
+}
+
+.drop {
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.199);
+  display: flex;
+  flex-wrap: wrap;
+}
+.drop > section {
+  margin: 50px 60px;
+  width: 20%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+.drop > section > div:nth-of-type(1) {
+  height: 100%;
+  width: 30%;
+}
+.drop > section > div:nth-of-type(1) > img {
+  width: 100%;
+  height: 100%;
+}
+.drop > section > div:nth-of-type(2) {
+  height: 100%;
+  width: 70%;
+}
+.drop > section > div:nth-of-type(2) > h3,
+.drop > section > div:nth-of-type(2) h6 {
+  font-family: "Indie Flower", cursive;
+}
+.drop > section > div:nth-of-type(2) > h3 {
+  font-size: 25px;
+  color: black;
+}
+.drop > section > div:nth-of-type(2) > h6 {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.459);
+}
+
+.pic {
+  width: 100%;
+  display: flex;
+}
+.pic > div {
+  width: 50%;
+  height: 100%;
+}
+.pic > div:nth-of-type(2) > h5,
+.pic > div:nth-of-type(2) p {
+  font-size: 30px;
+  padding: 30px 20px;
+  font-family: "Indie Flower", cursive;
+}
+.pic > div:nth-of-type(2) > p {
+  font-size: 20px;
+}
+.pic > div:nth-of-type(1) > img {
+  width: 100%;
+  height: 100%;
+}
+
+.picture {
+  width: 80%;
+  margin: 100px auto;
+}
+.picture > img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.down {
+  width: 90%;
+  display: flex;
+  margin: -10px 50px;
+}
+.down > div {
+  width: 80%;
+  margin: -70px 50px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+}
+.down > div > img {
+  width: 100%;
+  background: rgba(128, 128, 128, 0.144);
+}
+.down > div h5 {
+  font-size: 40px;
+  font-family: "Indie Flower", cursive;
+}
+.down > div > p {
+  padding: 20px 0;
+  font-family: "Indie Flower", cursive;
+}
+
+.txt {
+  width: 100%;
+  margin: 100px 0;
+}
+.txt > h3 {
+  margin: 100px 0;
+  font-size: 60px;
+  text-align: center;
+  padding: 200px 100px;
+  width: 100%;
+  background: rgba(128, 128, 128, 0.144);
+}
+
+.icon {
+  width: 15%;
+  margin: 50px auto;
+}
+.icon > i {
+  font-size: 50px;
+  text-align: center;
+}
+
+.fit {
+  width: 40%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fit > div {
+  width: 20%;
+}
+.fit > div > img {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=master1.css.map */
